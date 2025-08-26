@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>СЛОВАК</title>
+  <script src="static/socket.io.min.js"></script>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <h1>СЛОВАК</h1>
+
+  <div id="board"></div>
+
+  <div class="controls">
+  </div>
+
+  <div id="game-over-popup" class="popup hidden">
+    <div class="popup-content">
+      <h2 id="popup-message"></h2>
+      <button onclick="location.reload()">Грати знову</button>
+    </div>
+  </div>
+
+  <script src="static/client.js"></script>
+</body>
+</html>
